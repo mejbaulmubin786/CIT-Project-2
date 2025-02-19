@@ -1,0 +1,24 @@
+a {
+  color: #ffff !important;
+}
+
+a:hover {
+  color: #fcd980 !important;
+}
+.navbar {
+  background-color: #1c1e53 !important;
+}
+
+.nav-bar-button {
+  width: 185px;
+  height: 60px;
+  background-color: #fcd980;
+  border-radius: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-bar-button a {
+  font-size: 1rem;
+  font-weight: 500;
+}
