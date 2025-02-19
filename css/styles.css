@@ -7,18 +7,42 @@ a:hover {
 }
 .navbar {
   background-color: #1c1e53 !important;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
-
-.nav-bar-button {
-  width: 185px;
-  height: 60px;
-  background-color: #fcd980;
+ul {
+  gap: 32px !important;
+}
+ul li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+ul li a {
+  margin: 0;
+  padding: 0 !important;
+}
+ul li:last-child {
+  margin-right: 48px;
+}
+.button {
+  padding: 16px 48px;
+  background-color: transparent;
+  /* background-color: #fcd980; */
   border-radius: 41px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid rgba(244, 246, 252, 0.2);
 }
-.nav-bar-button a {
-  font-size: 1rem;
+.button:hover {
+  background-color: #fcd980;
+  border: 2px solid #fcd980;
+  color: #1c1e53;
+  transition: 0.3s;
+}
+.button a {
+  font-size: 16px;
   font-weight: 500;
+  line-height: 28px;
 }
