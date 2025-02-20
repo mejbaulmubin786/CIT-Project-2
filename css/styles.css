@@ -1,48 +1,40 @@
-a {
-  color: #ffff !important;
+/*================================================*/
+.navbar {
+  background-color: #1c1e53;
+  padding: 30px 0;
+}
+.navbar .navbar-nav {
+  gap: 32px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  color: #bbbbcb;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #ffffff;
+}
+.navbar .navbar-button {
+  margin-left: 48px;
+}
+.navbar .navbar-button a {
+  text-decoration: none;
+  background-color: transparent;
+  padding: 16px 48px;
+  color: #fff;
+  border-radius: 41px;
+  border: 1px solid rgba(244, 246, 252, 0.2);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.4s;
 }
 
-a:hover {
-  color: #fcd980 !important;
-}
-.navbar {
-  background-color: #1c1e53 !important;
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-ul {
-  gap: 32px !important;
-}
-ul li {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-}
-ul li a {
-  margin: 0;
-  padding: 0 !important;
-}
-ul li:last-child {
-  margin-right: 48px;
-}
-.button {
-  padding: 16px 48px;
-  background-color: transparent;
-  /* background-color: #fcd980; */
-  border-radius: 41px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid rgba(244, 246, 252, 0.2);
-}
-.button:hover {
+.navbar .navbar-button:hover a {
   background-color: #fcd980;
-  border: 2px solid #fcd980;
+  border-color: transparent;
   color: #1c1e53;
-  transition: 0.3s;
-}
-.button a {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
 }
