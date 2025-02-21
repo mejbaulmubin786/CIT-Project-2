@@ -1,0 +1,84 @@
+/*================================================*/
+.navbar {
+  background-color: #1c1e53;
+  padding: 30px 0;
+}
+.navbar .navbar-nav {
+  gap: 32px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  color: #bbbbcb;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #ffffff;
+}
+.navbar .navbar-button {
+  margin-left: 48px;
+}
+.navbar-button a {
+  text-decoration: none;
+  background-color: transparent;
+  padding: 16px 48px;
+  color: #fff;
+  border-radius: 41px;
+  border: 1px solid rgba(244, 246, 252, 0.2);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+
+.navbar-button:hover a {
+  background-color: #fcd980;
+  border-color: transparent;
+  color: #1c1e53;
+}
+/*========================Hero Section===========================*/
+.hero {
+  background-color: #1c1e53;
+}
+.hero .container .row .col-lg-6 {
+  margin-top: 126px;
+}
+.hero .container .row .col-lg-6 span {
+  display: block;
+}
+.hero .container .row .col-lg-6 h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 74px;
+}
+.hero .container .row .col-lg-6 p {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 28px;
+}
+
+.hero .container .row .navbar-button {
+  margin-top: 48px;
+  margin-bottom: 158px;
+}
+.hero .container .row .navbar-button a:last-child {
+  text-decoration: none;
+  background-color: transparent;
+  padding: 0;
+  color: #fff;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.4s;
+  margin-left: 24px !important;
+}
+.hero .container .row .navbar-button i {
+  width: 24px;
+}
+.hero .container .row .navbar-button a:nth-of-type(2):hover {
+  color: #fcd980;
+}
