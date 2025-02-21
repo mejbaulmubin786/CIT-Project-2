@@ -1,7 +1,7 @@
 /*================================================*/
 .navbar {
   background-color: #1c1e53;
-  padding: 30px 0;
+  padding: 16px 0 !important;
 }
 .navbar .navbar-nav {
   gap: 32px;
@@ -31,20 +31,24 @@
   font-size: 16px;
   font-weight: 500;
   transition: 0.4s;
+  display: inline-block;
 }
 
-.navbar-button:hover a {
+.navbar-button a:hover {
   background-color: #fcd980;
   border-color: transparent;
   color: #1c1e53;
 }
+
 /*========================Hero Section===========================*/
 .hero {
   background-color: #1c1e53;
 }
-.hero .container .row .col-lg-6 {
-  margin-top: 126px;
+.hero .container .row {
+  padding-top: 126px;
+  padding-bottom: 128px;
 }
+
 .hero .container .row .col-lg-6 span {
   display: block;
 }
@@ -58,12 +62,14 @@
 .hero .container .row .col-lg-6 p {
   color: rgba(255, 255, 255, 0.7);
   line-height: 28px;
+  margin-top: 24px;
+  margin-bottom: 48px;
 }
 
-.hero .container .row .navbar-button {
-  margin-top: 48px;
-  margin-bottom: 158px;
+.hero .container .row img {
+  object-fit: cover;
 }
+
 .hero .container .row .navbar-button a:last-child {
   text-decoration: none;
   background-color: transparent;
@@ -76,9 +82,21 @@
   transition: 0.4s;
   margin-left: 24px !important;
 }
-.hero .container .row .navbar-button i {
-  width: 24px;
-}
-.hero .container .row .navbar-button a:nth-of-type(2):hover {
+.hero .container .row .navbar-button a:last-child:hover {
   color: #fcd980;
+}
+.hero .container .row .navbar-button a:last-child:hover i {
+  animation: goRight 0.9s infinite;
+}
+
+@keyframes goRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
