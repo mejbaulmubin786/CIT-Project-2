@@ -134,6 +134,9 @@
   position: relative;
 }
 .work .container .row .col-lg-7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 25px;
 }
 .work .container .row .col-lg-7 .button {
