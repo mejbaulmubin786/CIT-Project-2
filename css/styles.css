@@ -15,6 +15,12 @@
 .common-title p span {
   display: block;
 }
+.common-title a {
+  text-decoration: none;
+}
+.common-title a:hover i {
+  animation: goRight 0.9s infinite;
+}
 /*================================================*/
 .navbar {
   background-color: #1c1e53;
@@ -123,5 +129,49 @@
   padding-top: 128px;
   padding-bottom: 128px;
 }
-.work h2 .common-title {
+
+.buttons {
+  position: relative;
+}
+.work .container .row .col-lg-7 {
+  gap: 25px;
+}
+.work .container .row .col-lg-7 .button {
+  position: relative;
+  background-color: #2405f2;
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.work .container .row .col-lg-7 .button::before {
+  width: 50px;
+  height: 50px;
+  background-color: #fcd980;
+  position: absolute;
+  content: "";
+  left: -50%;
+  top: 50%;
+}
+
+.work .container .row .col-lg-7 .button::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: #5239fa;
+  position: absolute;
+  left: 18%;
+  bottom: 18%;
+  border-radius: 0px 0px 0px 8px;
+}
+
+.number {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-size: 18px;
+  color: #fff;
+}
+.work .container .row .col-lg-7 div {
+  width: 323px;
 }
