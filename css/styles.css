@@ -1,3 +1,20 @@
+.common-title h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+  line-height: 64px;
+}
+.common-title p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #282938;
+  line-height: 28px;
+}
+.common-title p span {
+  display: block;
+}
 /*================================================*/
 .navbar {
   background-color: #1c1e53;
@@ -99,4 +116,12 @@
   100% {
     transform: translateX(0);
   }
+}
+/*========================Work Section===========================*/
+.work {
+  background-color: #f4f6fc;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+.work h2 .common-title {
 }
