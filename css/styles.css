@@ -179,8 +179,16 @@
   width: 323px;
 }
 /*========================Work Section===========================*/
-.project {
+.projects {
   background-color: #ffffff;
   padding-top: 128px;
   padding-bottom: 128px;
+}
+.projects .container .projects-header {
+  margin-bottom: 64px;
+}
+.row .col-lg-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
