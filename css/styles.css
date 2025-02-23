@@ -21,6 +21,13 @@
 .common-title a:hover i {
   animation: goRight 0.9s infinite;
 }
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #282938;
+  line-height: 48px;
+}
 /*================================================*/
 .navbar {
   background-color: #1c1e53;
@@ -178,7 +185,7 @@
 .work .container .row .col-lg-7 div {
   width: 323px;
 }
-/*========================Work Section===========================*/
+/*========================Project Section===========================*/
 .projects {
   background-color: #ffffff;
   padding-top: 128px;
@@ -191,4 +198,73 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.projects .container .row .col-lg-8 {
+  position: relative;
+  overflow: hidden;
+}
+.projects .container .row .col-lg-8 .overlay {
+  position: absolute;
+  width: 47%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #1c1e536b, #1c1e53);
+  top: 0;
+  left: -47%;
+  justify-content: flex-end;
+  padding-left: 48px;
+  transition: 0.9s;
+}
+.projects .container .row .col-lg-8:hover .overlay {
+  top: 0;
+  left: 0;
+}
+.projects .container .row .col-lg-8 .overlay h3,
+.projects .container .row .col-lg-4 .top-img .overlay h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 36px;
+  margin-top: 32px;
+}
+.projects .container .row .col-lg-8 .overlay p {
+  margin-top: 16px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 28px;
+  opacity: 0.8;
+}
+.projects .container .row .col-lg-8 .overlay .common-title a {
+  margin-bottom: 76px;
+  display: inline-block;
+  color: #fcd980;
+}
+.projects .container .row .col-lg-4 .side-img {
+  position: relative;
+  overflow: hidden;
+}
+.projects .container .row .col-lg-4 .side-img .overlay {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  background-image: linear-gradient(to bottom right, #1c1e536b, #1c1e53);
+  top: 0;
+  left: 0;
+  justify-content: flex-end;
+  padding-left: 48px;
+  transition: 0.9s;
+}
+.projects .container .row .col-lg-4 .side-img:hover .overlay {
+  height: 100%;
+}
+.projects .container .row .col-lg-4 .side-img .overlay h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+.projects .container .row .col-lg-4 .side-img .overlay .common-title a {
+  margin-bottom: 48px;
+  display: inline-block;
+  color: #fcd980;
 }
