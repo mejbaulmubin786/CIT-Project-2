@@ -1,3 +1,7 @@
+.container {
+  width: 1280px !important;
+}
+
 .common-title h2 {
   font-family: "Poppins", sans-serif;
   font-size: 48px;
@@ -267,4 +271,46 @@ h2 {
   margin-bottom: 48px;
   display: inline-block;
   color: #fcd980;
+}
+/*========================features Section===========================*/
+.features {
+  background-color: rgba(244, 246, 252, 1);
+}
+
+.features .container {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+.features .container .common-title h4 {
+  margin-bottom: 12px;
+  text-align: center;
+}
+.features .container .common-title h2 {
+  margin-bottom: 47px;
+  text-align: center;
+}
+.features .container .common-title h2 span {
+  display: block;
+}
+.features .row {
+}
+.features .row .col-lg-4 {
+  /*flex: 1 1 calc(33.333% - 32px);  তিন কলাম নিশ্চিত করা */
+  /* max-width: calc(33.333% - 32px); তিন কলাম ঠিক রাখা*/
+  padding: 58px 32px 48px 48px;
+  background-color: rgba(255, 255, 255, 1);
+  box-sizing: border-box;
+}
+.features .row .col-lg-4 img {
+  margin-bottom: 22px;
+}
+
+.features .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px; /* কলাম এবং রোতে গ্যাপ */
+}
+.features .row .col {
+  flex: 1 1 calc(33.333% - 32px);
+  max-width: calc(33.333% - 32px);
 }
