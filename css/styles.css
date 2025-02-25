@@ -41,9 +41,6 @@ h2 {
   line-height: 36px;
   margin-top: 32px;
 }
-span {
-  display: block;
-}
 /*================================================*/
 .navbar {
   background-color: #1c1e53;
@@ -258,9 +255,6 @@ span {
   display: inline-block;
   color: #fcd980;
 }
-/* .projects .container .row .col-lg-4 {
-  background-color: #ffffff;
-} */
 .projects .container .row .col-lg-4 .side-img {
   position: relative;
   overflow: hidden;
@@ -324,7 +318,7 @@ span {
 
 .features .feature {
   padding: 58px 32px 48px 48px;
-  background-color: rgba(244, 246, 252, 1);
+  background-color: rgba(255, 255, 255, 1);
   box-sizing: border-box;
 }
 .features .feature p {
