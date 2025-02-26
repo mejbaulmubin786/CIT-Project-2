@@ -501,7 +501,9 @@ span {
 .stellar .container .content_container {
   position: relative;
 }
-
+.stellar .container p {
+  color: white;
+}
 .stellar .container .content_container .overly {
   position: absolute;
   top: 0;
