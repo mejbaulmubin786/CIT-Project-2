@@ -639,3 +639,16 @@ span {
   display: flex;
   gap: 16px;
 }
+/*========================footer section===========================*/
+
+footer .navbar {
+  background-color: white;
+  color: black;
+}
+footer .navbar p {
+  margin-bottom: 0;
+  color: black;
+}
+footer .navbar a {
+  color: black !important;
+}
