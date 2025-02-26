@@ -32,14 +32,15 @@ h2 {
   color: #282938;
   line-height: 48px;
 }
-.projects .container .row .col-lg-8 .overlay h3,
-.projects .container .row .col-lg-4 .top-img .overlay h3 {
+h3 {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 600;
-  color: #fff;
+  color: #282938;
   line-height: 36px;
-  margin-top: 32px;
+}
+span {
+  display: block;
 }
 /*================================================*/
 .navbar {
@@ -231,6 +232,15 @@ h2 {
   top: 0;
   left: 0;
 }
+.projects .container .row .col-lg-8 .overlay h3,
+.projects .container .row .col-lg-4 .top-img .overlay h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 36px;
+  margin-top: 32px;
+}
 /*----------------------------------------------------------*/
 .projects .container .row .col-lg-8 .overlay h3,
 .projects .container .row .col-lg-4 .top-img .overlay h3 {
@@ -241,6 +251,7 @@ h2 {
   line-height: 36px;
   margin-top: 32px;
 }
+
 .projects .container .row .col-lg-8 .overlay p {
   margin-top: 16px;
   margin-bottom: 40px;
@@ -284,7 +295,7 @@ h2 {
 }
 /*========================features Section===========================*/
 .features {
-  background-color: rgba(244, 246, 252, 1);
+  background-color: #f4f6fc;
 }
 
 .features .container {
@@ -318,7 +329,7 @@ h2 {
 
 .features .feature {
   padding: 58px 32px 48px 48px;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #fafbfe;
   box-sizing: border-box;
 }
 .features .feature p {
@@ -333,9 +344,9 @@ h2 {
 .features .feature img {
   margin-bottom: 22px;
 }
-/*========================features Section===========================*/
+/*========================clients Section===========================*/
 .clients {
-  background-color: rgba(244, 246, 252, 0.5);
+  background-color: #fafbfe;
   padding-top: 128px;
   padding-bottom: 128px;
 }
@@ -392,3 +403,192 @@ h2 {
 .clients .container .row .col-md-8 .slider .icon-box:hover i {
   color: #fff !important;
 }
+/*========================FAW Section===========================*/
+.faq {
+  background-color: #ffffff;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+/* .faq .container .row .col-md-4 .common-title h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  color: #282938;
+  line-height: 56px;
+  margin-bottom: 0;
+} */
+.faq .container .row .col-lg-8 .accordion .accordion-item {
+  border: 0px;
+  border-bottom: 2px solid #ececf1;
+}
+.faq .container .row .col-lg-8 .accordion .accordion-item:last-child {
+  border-bottom: 0px;
+}
+.faq .container .row .col-lg-8 .accordion .accordion-item span {
+  display: inline-block;
+  margin-right: 59px;
+  color: #2405f2;
+}
+.clients .container .row .col-md-8 .common-title h3 {
+  line-height: 48px;
+}
+.clients .container .row .col-md-8 .autoer img {
+  float: left;
+  border-radius: 50%;
+  margin-right: 14px;
+}
+.clients .container .row .col-md-8 .autoer h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #282938;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+.clients .container .row .col-md-8 .autoer p {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #282938;
+  line-height: 28px;
+  margin-top: 0;
+}
+.clients .container .row .col-md-8 .slider .icon-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.clients .container .row .col-md-8 .slider .icon-box i {
+  color: #282938 !important;
+}
+.clients .container .row .col-md-8 .slider .icon-box:hover {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #5239fa;
+}
+.clients .container .row .col-md-8 .slider .icon-box:hover i {
+  color: #fff !important;
+}
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z'/%3E%3C/svg%3E");
+}
+
+.accordion-button.collapsed::after {
+  /* যখন অ্যাকর্ডিয়ন বন্ধ থাকে তখন আইকন পরিবর্তন করুন */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z'/%3E%3C/svg%3E"); /* এখানে আপনি অন্য আইকন ব্যবহার করতে পারেন */
+}
+
+.accordion-button::after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z'/%3E%3C/svg%3E");
+  transform: rotate(45deg); /* X আইকন ঠিকভাবে বসানোর জন্য */
+}
+/* ===============================stellar================================*/
+
+.stellar .container {
+  height: 691px;
+  display: flex;
+}
+
+.stellar .container .content_container {
+  position: relative;
+}
+
+.stellar .container .content_container .overly {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: auto;
+  background: rgba(28, 30, 83, 0.5);
+  padding: 96px 96px 261px 96px;
+}
+
+.stellar .container .content_container .overly .title {
+  color: white;
+  line-height: 74px;
+  margin-bottom: 24px;
+}
+
+.stellar .container .content_container .overly .description {
+  color: white;
+}
+.stellar .container .content_container .overly h2 {
+  font-size: 54px;
+}
+.stellar .container .content_container .overly span {
+  display: block;
+}
+.stellar .container .inquiry_input {
+  height: 100%;
+  width: 100%;
+  background: #1c1e53;
+  padding: 96px 96px 261px 96px;
+}
+
+.stellar .container .inquiry_input .sub-title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  color: white;
+}
+
+.stellar .container .inquiry_input .description {
+  color: white;
+  margin-top: 8px;
+  margin-bottom: 48px;
+}
+
+.stellar .container .inquiry_input .form-inputs {
+  background: transparent;
+  border: 2px solid #ffffff0d;
+  padding: 18px 311px 18px 32px !important;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.stellar .container .inquiry_input .form-inputs::placeholder {
+  color: rgba(244, 246, 252, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28;
+}
+
+.stellar .container .inquiry_input .form-inputs:focus {
+  border-color: #ffffffbb !important;
+}
+.stellar .container .inquiry_input .navbar-button {
+  margin-top: 39px;
+}
+.stellar .container .inquiry_input .navbar-button a {
+  width: 100%;
+  text-align: center;
+}
+.stellar .container .inquiry_input .common-title {
+  text-align: center;
+}
+.stellar .container .inquiry_input .common-title a {
+  margin-top: 28px;
+  display: inline-block;
+  color: #fcd980;
+}
+/*========================our_blog Section===========================*/
+.our_blog {
+  background-color: #ffffff;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+/*========================footer Section===========================*/
