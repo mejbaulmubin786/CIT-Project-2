@@ -237,17 +237,6 @@ span {
   line-height: 36px;
   margin-top: 32px;
 }
-/*----------------------------------------------------------*/
-.projects .container .row .col-lg-8 .overlay h3,
-.projects .container .row .col-lg-4 .top-img .overlay h3 {
-  font-family: "Poppins", sans-serif;
-  font-size: 24px;
-  font-weight: 600;
-  color: #fff;
-  line-height: 36px;
-  margin-top: 32px;
-}
-
 .projects .container .row .col-lg-8 .overlay p {
   margin-top: 16px;
   margin-bottom: 40px;
@@ -399,6 +388,30 @@ span {
 .clients .container .row .col-md-8 .slider .icon-box:hover i {
   color: #fff !important;
 }
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z'/%3E%3C/svg%3E");
+}
+
+.accordion-button.collapsed::after {
+  /* যখন অ্যাকর্ডিয়ন বন্ধ থাকে তখন আইকন পরিবর্তন করুন */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z'/%3E%3C/svg%3E"); /* এখানে আপনি অন্য আইকন ব্যবহার করতে পারেন */
+}
+
+.accordion-button::after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z'/%3E%3C/svg%3E");
+  transform: rotate(45deg); /* X আইকন ঠিকভাবে বসানোর জন্য */
+}
 /*========================FAW Section===========================*/
 .faq {
   background-color: #ffffff;
@@ -426,71 +439,7 @@ span {
   margin-right: 59px;
   color: #2405f2;
 }
-.clients .container .row .col-md-8 .common-title h3 {
-  line-height: 48px;
-}
-.clients .container .row .col-md-8 .autoer img {
-  float: left;
-  border-radius: 50%;
-  margin-right: 14px;
-}
-.clients .container .row .col-md-8 .autoer h3 {
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  color: #282938;
-  line-height: 32px;
-  margin-bottom: 0;
-}
-.clients .container .row .col-md-8 .autoer p {
-  font-family: "Poppins", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  color: #282938;
-  line-height: 28px;
-  margin-top: 0;
-}
-.clients .container .row .col-md-8 .slider .icon-box {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  background-color: transparent;
-}
-.clients .container .row .col-md-8 .slider .icon-box i {
-  color: #282938 !important;
-}
-.clients .container .row .col-md-8 .slider .icon-box:hover {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  background-color: #5239fa;
-}
-.clients .container .row .col-md-8 .slider .icon-box:hover i {
-  color: #fff !important;
-}
-.accordion-button::after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z'/%3E%3C/svg%3E");
-}
 
-.accordion-button.collapsed::after {
-  /* যখন অ্যাকর্ডিয়ন বন্ধ থাকে তখন আইকন পরিবর্তন করুন */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z'/%3E%3C/svg%3E"); /* এখানে আপনি অন্য আইকন ব্যবহার করতে পারেন */
-}
-
-.accordion-button::after {
-  content: "";
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 20px;
-  height: 20px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.accordion-button:not(.collapsed)::after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z'/%3E%3C/svg%3E");
-  transform: rotate(45deg); /* X আইকন ঠিকভাবে বসানোর জন্য */
-}
 /* ===============================stellar================================*/
 
 .stellar .container {
