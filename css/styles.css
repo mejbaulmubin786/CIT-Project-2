@@ -208,11 +208,7 @@ span {
 .projects .container .projects-header {
   margin-bottom: 64px;
 }
-.row .col-lg-6 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 .projects .container .row .col-lg-8 {
   position: relative;
   overflow: hidden;
@@ -591,4 +587,53 @@ span {
   padding-top: 128px;
   padding-bottom: 128px;
 }
-/*========================footer Section===========================*/
+.our_blog .container p {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  font-weight: 400;
+  color: rgba(40, 41, 56, 0.7);
+}
+/*========================contact section===========================*/
+
+.contact {
+  padding-top: 100px;
+  background: #1c1e53;
+  padding-top: 128px;
+}
+.contact .container img {
+  width: 160px;
+  margin-bottom: 23px;
+}
+.contact .container .row .col-lg-6:first-child p {
+  margin-bottom: 86px;
+  color: #ffffff;
+}
+.contact .container .row .col-lg-6:first-child p:last-child {
+  margin-bottom: 16px;
+  color: #282938;
+}
+
+.contact .container .row .info {
+  background: #fcd980;
+  width: 80%;
+  padding-top: 16px;
+  padding-left: 37px;
+  column-gap: 30px;
+}
+.contact .container .row .info h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #282938;
+  line-height: 32px;
+}
+.contact .container .row .col-lg-6:last-child {
+  color: #ffffff;
+}
+.contact .container .row .col-lg-6 .common-title h2 {
+  color: #ffffff;
+}
+.contact .container .row .col-lg-6 .social_icons {
+  display: flex;
+  gap: 16px;
+}
