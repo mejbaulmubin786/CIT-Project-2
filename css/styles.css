@@ -441,68 +441,88 @@ span {
 }
 
 /* ===============================stellar================================*/
-.stellar .container {
-  background-color: #1c1e53;
-}
 
-.stellar .container .row .col-lg-6 {
-  padding: 0;
+.stellar {
+  padding-bottom: 125px;
+}
+.stellar .container .row {
+  overflow: hidden;
+}
+.stellar .contact-image-box {
   position: relative;
 }
-
-.stellar .container .row .col-lg-6 > .overly {
+.stellar .contact-image-box {
   width: 100%;
   height: 100%;
-  padding: 96px 96px 0 96px;
-  position: absolute;
-  top: 0px !important;
+}
+.stellar .contact-image-box img {
+  width: 106%;
+  height: 100%;
+  object-fit: cover;
+}
+.stellar .contact-image-box .overlay {
   background: rgba(28, 30, 83, 0.5);
+  width: 106%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 96px;
 }
-.stellar .container .row .col-lg-6 .overly h2 {
+.stellar .contact-image-box .overlay h3 {
   font-size: 54px;
-  line-height: 74px;
-  margin-bottom: 24px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "Poppins", serif;
 }
-.stellar .container .row .col-lg-6 p {
-  color: white;
-  font-size: 16px;
-  font-weight: 500;
-}
-.stellar .container .row .col-lg-6:last-child {
-  padding: 96px 96px 0 96px;
-}
-.stellar .container .row .col-lg-6:last-child p {
-  margin-bottom: 40px;
-}
-.stellar .container .row .col-lg-6 h2 {
-  color: white;
-}
-.stellar .container .row .col-lg-6 form input {
-  background-color: transparent;
-  width: 100%;
-  display: block;
-  border-radius: 8px;
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-left: 32px;
-  margin-bottom: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  color: white;
-}
-.stellar .container .row .col-lg-6 form input::placeholder {
-  color: rgba(244, 246, 252, 0.5);
+.stellar .contact-image-box .overlay p {
   font-size: 16px;
   font-weight: 400;
-  line-height: 28;
+  color: #fff;
+  font-family: "Poppins", serif;
+  padding-top: 24px;
 }
-.stellar .container .row .col-lg-6 .navbar-button a {
-  margin-top: 39px;
+.stellar .contact-input-box {
+  background: #1c1e53;
+  padding: 96px;
+}
+.stellar .contact-input-box h5 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Poppins", serif;
+}
+.stellar .contact-input-box p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Poppins", serif;
+  padding-top: 8px;
+  padding-bottom: 48px;
+}
+.stellar .contact-input-box input {
   width: 100%;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 18px 32px;
+  color: white;
+  font-family: 20px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+.stellar .contact-input-box input::placeholder {
+  color: #f4f6fc;
+  font-size: 16px;
+}
+.stellar .navbar-button a {
+  text-align: center;
+  width: 100%;
+}
+.stellar .common-title {
+  padding-top: 30px;
   text-align: center;
 }
-.stellar .container .row .col-lg-6 .common-title {
-  margin-top: 28px;
-}
+
 /*========================our_blog Section===========================*/
 .our_blog {
   background-color: #ffffff;
