@@ -419,14 +419,6 @@ span {
   padding-bottom: 128px;
 }
 
-/* .faq .container .row .col-md-4 .common-title h3 {
-  font-family: "Poppins", sans-serif;
-  font-size: 38px;
-  font-weight: 600;
-  color: #282938;
-  line-height: 56px;
-  margin-bottom: 0;
-} */
 .faq .container .row .col-lg-8 .accordion .accordion-item {
   border: 0px;
   border-bottom: 2px solid #ececf1;
@@ -442,57 +434,63 @@ span {
 
 /* ===============================stellar================================*/
 
-.stellar {
-  padding-bottom: 125px;
-}
-.stellar .container .row {
-  overflow: hidden;
-}
-.stellar .contact-image-box {
+.stellar .image-box {
   position: relative;
 }
-.stellar .contact-image-box {
+.stellar .container .row {
+  margin: 0;
+}
+.stellar .container .row .col-lg-6 {
+  padding: 0;
+}
+
+.stellar .image-box img {
+  object-fit: cover;
   width: 100%;
   height: 100%;
+  /* opacity: 10%; */
 }
-.stellar .contact-image-box img {
-  width: 106%;
-  height: 100%;
-  object-fit: cover;
-}
-.stellar .contact-image-box .overlay {
+
+.stellar .image-box .overlay {
   background: rgba(28, 30, 83, 0.5);
-  width: 106%;
+  width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   padding: 96px;
+  /* background-color: #282938; */
 }
-.stellar .contact-image-box .overlay h3 {
+
+.stellar .image-box .overlay h3 {
   font-size: 54px;
   font-weight: 600;
   color: #fff;
   font-family: "Poppins", serif;
+  line-height: 74px;
 }
-.stellar .contact-image-box .overlay p {
+
+.stellar .image-box .overlay p {
   font-size: 16px;
   font-weight: 400;
   color: #fff;
   font-family: "Poppins", serif;
   padding-top: 24px;
 }
-.stellar .contact-input-box {
+
+.stellar .input-box {
   background: #1c1e53;
-  padding: 96px;
+  padding: 96px 96px 48px 96px;
 }
-.stellar .contact-input-box h5 {
+
+.stellar .input-box h5 {
   font-size: 32px;
   font-weight: 500;
   color: #fff;
   font-family: "Poppins", serif;
 }
-.stellar .contact-input-box p {
+
+.stellar .input-box p {
   font-size: 16px;
   font-weight: 500;
   color: #fff;
@@ -500,19 +498,27 @@ span {
   padding-top: 8px;
   padding-bottom: 48px;
 }
-.stellar .contact-input-box input {
+
+.stellar .input-box input {
   width: 100%;
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.05);
   padding: 18px 32px;
-  color: white;
+  color: rgba(244, 246, 252, 0.5);
   font-family: 20px;
   margin-bottom: 16px;
   border-radius: 8px;
+  outline: 0;
+}
+.stellar .input-box input:last-child {
+  margin-bottom: 0;
 }
 .stellar .contact-input-box input::placeholder {
-  color: #f4f6fc;
+  color: rgba(244, 246, 252, 0.5);
   font-size: 16px;
+}
+.stellar .navbar-button {
+  margin-top: 34px;
 }
 .stellar .navbar-button a {
   text-align: center;
