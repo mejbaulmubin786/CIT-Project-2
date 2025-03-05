@@ -504,17 +504,18 @@ span {
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.05);
   padding: 18px 32px;
-  color: rgba(244, 246, 252, 0.5);
   font-family: 20px;
   margin-bottom: 16px;
   border-radius: 8px;
   outline: 0;
+  font-size: 20px;
+  color: #f4f6fc !important;
 }
 .stellar .input-box input:last-child {
   margin-bottom: 0;
 }
 .stellar .contact-input-box input::placeholder {
-  color: rgba(244, 246, 252, 0.5);
+  color: #f4f6fc !important;
   font-size: 16px;
 }
 .stellar .navbar-button {
