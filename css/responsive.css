@@ -14,6 +14,7 @@
     padding: 30px;
     border-radius: 10px;
     margin-top: 10px;
+    margin-bottom: 20px !important;
   }
   .navbar .container .collapse .navbar-nav .nav-item .nav-link {
     color: #1c1e53;
@@ -22,10 +23,42 @@
     text-align: center;
     margin-left: 0;
   }
+  .navbar-button {
+    text-align: center;
+    margin-left: 0;
+  }
   .navbar-button a {
     background-color: #fcd980;
     color: #1c1e53;
     border-radius: 41px;
   }
-  /*====================================================*/
+  /*=======================hero=============================*/
+  .hero .container .col-lg-6 {
+    text-align: center;
+  }
+  .hero .container .row {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  .hero .container .row .col-lg-6 h1 {
+    font-size: 29px;
+    line-height: 47px;
+  }
+  .hero .container .row .col-lg-6 p {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 26px;
+    margin-top: 10px !important;
+    margin-bottom: 20px;
+  }
+
+  .hero .container .row .navbar-button a:last-child {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px !important;
+  }
+
+  .hero .container .row img {
+    margin-top: 10px;
+  }
 }
