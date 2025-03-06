@@ -1,2 +1,31 @@
 @media (min-width: 320px) and (max-width: 575.99px) {
+  .navbar-toggler {
+    color: white;
+    background-color: #fcd980;
+    background-color: rgb(252, 217, 128);
+
+    color: #ffe4c4;
+  }
+  .navbar .container .collapse .navbar-nav {
+    background-image: linear-gradient(to bottom right, aquamarine, #ffd98080);
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .navbar .container .collapse .navbar-nav .nav-item .nav-link {
+    color: #1c1e53;
+  }
+  .navbar .navbar-button {
+    text-align: center;
+    margin-left: 0;
+  }
+  .navbar-button a {
+    background-color: #fcd980;
+    color: #1c1e53;
+    border-radius: 41px;
+  }
+  /*====================================================*/
 }
