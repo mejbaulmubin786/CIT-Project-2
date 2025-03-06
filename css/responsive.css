@@ -61,4 +61,135 @@
   .hero .container .row img {
     margin-top: 10px;
   }
+  /*=======================work=============================*/
+  .work {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .work .col-lg-7 {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  /*=======================projects=============================*/
+  .projects {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .projects-header {
+    display: block !important;
+    margin-bottom: 20px !important;
+  }
+  .projects-header h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .projects-header a {
+  }
+
+  .projects img {
+    width: 80%;
+    padding-bottom: 20px;
+  }
+  .gap-5 {
+    gap: 0px !important;
+  }
+  .col-lg-8,
+  .col-lg-4 {
+    width: 100%;
+  }
+  /*=======================features=============================*/
+  .features .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .features h2 {
+    font-size: 26px;
+    line-height: 41px;
+  }
+
+  /*=======================clients=============================*/
+  .clients {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .features h2 {
+    font-size: 26px;
+    line-height: 41px;
+  }
+
+  .features h3 {
+    font-size: 16px !important;
+  }
+
+  .features .authoer {
+    display: block !important;
+  }
+
+  /*=======================faq=============================*/
+  .faq {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  /*=======================faq=============================*/
+  .stellar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .stellar h3 {
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .stellar .col-lg-6:last-child {
+    text-align: left;
+  }
+  .stellar .col-lg-6 input::placeholder {
+    font-size: 15px;
+  }
+  /*=======================blog=============================*/
+  .our_blog {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .our_blog .col-lg-4 {
+    margin-bottom: 20px;
+  }
+  /*=======================contact=============================*/
+  .contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .contact .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .container .row .col-lg-6:first-child p {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  .contact .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 !important;
+  }
+  .contact .info p {
+    font-size: 10px;
+    margin-bottom: 0 !important;
+  }
 }
