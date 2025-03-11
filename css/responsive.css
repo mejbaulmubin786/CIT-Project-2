@@ -193,3 +193,393 @@
     margin-bottom: 0 !important;
   }
 }
+@media (min-width: 376px) and (max-width: 767.99px) {
+  .navbar-toggler {
+    color: white;
+    background-color: #fcd980;
+    background-color: rgb(252, 217, 128);
+
+    color: #ffe4c4;
+  }
+  .navbar .container .collapse .navbar-nav {
+    background-image: linear-gradient(to bottom right, aquamarine, #ffd98080);
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px !important;
+  }
+  .navbar .container .collapse .navbar-nav .nav-item .nav-link {
+    color: #1c1e53;
+  }
+  .navbar .navbar-button {
+    text-align: center;
+    margin-left: 0;
+  }
+  .navbar-button {
+    text-align: center;
+    margin-left: 0;
+  }
+  .navbar-button a {
+    background-color: #fcd980;
+    color: #1c1e53;
+    border-radius: 41px;
+  }
+  /*=======================hero=============================*/
+  .hero .container .col-lg-6 {
+    text-align: center;
+  }
+  .hero .container .row {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  .hero .container .row .col-lg-6 h1 {
+    font-size: 29px;
+    line-height: 47px;
+  }
+  .hero .container .row .col-lg-6 p {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 26px;
+    margin-top: 10px !important;
+    margin-bottom: 20px;
+  }
+
+  .hero .container .row .navbar-button a:last-child {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px !important;
+  }
+
+  .hero .container .row img {
+    margin-top: 10px;
+  }
+  /*=======================work=============================*/
+  .work {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .work .col-lg-7 {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  /*=======================projects=============================*/
+  .projects {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .projects-header {
+    display: block !important;
+    margin-bottom: 20px !important;
+  }
+  .projects-header h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .projects-header a {
+  }
+
+  .projects img {
+    width: 80%;
+    padding-bottom: 20px;
+  }
+  .gap-5 {
+    gap: 0px !important;
+  }
+  .col-lg-8,
+  .col-lg-4 {
+    width: 100%;
+  }
+  /*=======================features=============================*/
+  .features .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .features h2 {
+    font-size: 26px;
+    line-height: 41px;
+  }
+
+  /*=======================clients=============================*/
+  .clients {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .features h2 {
+    font-size: 26px;
+    line-height: 41px;
+  }
+
+  .features h3 {
+    font-size: 16px !important;
+  }
+
+  .features .authoer {
+    display: block !important;
+  }
+
+  /*=======================faq=============================*/
+  .faq {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  /*=======================faq=============================*/
+  .stellar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .stellar h3 {
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .stellar .col-lg-6:last-child {
+    text-align: left;
+  }
+  .stellar .col-lg-6 input::placeholder {
+    font-size: 15px;
+  }
+  /*=======================blog=============================*/
+  .our_blog {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .our_blog .col-lg-4 {
+    margin-bottom: 20px;
+  }
+  /*=======================contact=============================*/
+  .contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .contact .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .container .row .col-lg-6:first-child p {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  .contact .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 !important;
+  }
+  .contact .info p {
+    font-size: 10px;
+    margin-bottom: 0 !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .navbar-toggler {
+    color: white;
+    background-color: #fcd980;
+    background-color: rgb(252, 217, 128);
+
+    color: #ffe4c4;
+  }
+  .navbar .container .collapse .navbar-nav {
+    background-image: linear-gradient(to bottom right, aquamarine, #ffd98080);
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px !important;
+  }
+  .navbar .container .collapse .navbar-nav .nav-item .nav-link {
+    color: #1c1e53;
+  }
+  .navbar .navbar-button {
+    text-align: center;
+    margin-left: 0;
+  }
+  .navbar-button {
+    text-align: center;
+    margin-left: 0;
+  }
+  .navbar-button a {
+    background-color: #fcd980;
+    color: #1c1e53;
+    border-radius: 41px;
+  }
+  /*=======================hero=============================*/
+  .hero .container .col-lg-6 {
+    text-align: center;
+  }
+  .hero .container .row {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  .hero .container .row .col-lg-6 h1 {
+    font-size: 29px;
+    line-height: 47px;
+  }
+  .hero .container .row .col-lg-6 p {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 26px;
+    margin-top: 10px !important;
+    margin-bottom: 20px;
+  }
+
+  .hero .container .row .navbar-button a:last-child {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px !important;
+  }
+
+  .hero .container .row img {
+    margin-top: 10px;
+  }
+  /*=======================work=============================*/
+  .work {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .work .col-lg-7 {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  /*=======================projects=============================*/
+  .projects {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .projects-header {
+    display: block !important;
+    margin-bottom: 20px !important;
+  }
+  .projects-header h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .projects-header a {
+  }
+
+  .projects img {
+    width: 80%;
+    padding-bottom: 20px;
+  }
+  .gap-5 {
+    gap: 0px !important;
+  }
+  .projects .col-lg-8,
+  .projects .col-lg-4 {
+    width: 100%;
+  }
+  /*=======================features=============================*/
+  /* .features .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .features h2 {
+    font-size: 26px;
+    line-height: 41px;
+  } */
+
+  /*=======================clients=============================*/
+  .clients {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .features h2 {
+    font-size: 26px;
+    line-height: 41px;
+  }
+
+  .features h3 {
+    font-size: 16px !important;
+  }
+
+  .features .authoer {
+    display: block !important;
+  }
+
+  /*=======================faq=============================*/
+  .faq {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  /*=======================faq=============================*/
+  .stellar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .stellar h3 {
+    font-size: 30px !important;
+    line-height: 35px !important;
+  }
+  .stellar .col-lg-6:last-child {
+    text-align: left;
+  }
+  .stellar .col-lg-6 input::placeholder {
+    font-size: 15px;
+  }
+  /*=======================blog=============================*/
+  .our_blog {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .our_blog .col-lg-4 {
+    margin-bottom: 20px;
+  }
+  /*=======================contact=============================*/
+  .contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .contact .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .container .row .col-lg-6:first-child p {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  .contact .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 !important;
+  }
+  .contact .info p {
+    font-size: 10px;
+    margin-bottom: 0 !important;
+  }
+}

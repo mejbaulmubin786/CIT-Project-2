@@ -293,14 +293,11 @@ span {
   text-align: center;
 }
 
-.features .container .common-title h2 span {
+/* .features .container .common-title h2 span {
   display: block;
-}
-
-.features .row {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 24px; /* দুই রো এর মাঝে 24px গ্যাপ */
+} */
+.features .row .col-lg-4 {
+  margin-bottom: 24px;
 }
 
 .feature-box {
@@ -317,9 +314,9 @@ span {
   font-weight: 400;
   line-height: 28px;
 }
-.features .feature p span {
+/* .features .feature p span {
   display: block;
-}
+} */
 
 .features .feature img {
   margin-bottom: 22px;
